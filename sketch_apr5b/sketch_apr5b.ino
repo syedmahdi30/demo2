@@ -20,7 +20,7 @@ void loop() {
   buttonState = digitalRead(buttonPin);
 
   // Print the state to the Serial Monitor
-  Serial.print("Button State: ");
+  Serial.print("Pin State: ");
   Serial.println(buttonState);
 
   // Turn the LED on or off depending on the button state
